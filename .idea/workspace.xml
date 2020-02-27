@@ -7,66 +7,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82ce1556-f56a-4338-9c43-0b73a510c9f5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/mg/studio/android/survey/finaltext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/mg/studio/android/survey/question1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/mg/studio/android/survey/question10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/mg/studio/android/survey/question11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/mg/studio/android/survey/question12.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/mg/studio/android/survey/question2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/mg/studio/android/survey/question3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/mg/studio/android/survey/question4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/mg/studio/android/survey/question5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/mg/studio/android/survey/question6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/mg/studio/android/survey/question7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/mg/studio/android/survey/question8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/mg/studio/android/survey/question9.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/mg/studio/android/survey/showFinalAnswer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_finaltext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_question1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_question10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_question11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_question12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_question2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_question3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_question4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_question5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_question6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_question7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_question8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_question9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_show_final_answer.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/mg/studio/android/survey/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/mg/studio/android/survey/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/finish_survey.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/finish_survey.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/question_eight.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/question_eight.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/question_eleven.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/question_eleven.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/question_five.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/question_five.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/question_four.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/question_four.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/question_nine.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/question_nine.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/question_one.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/question_one.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/question_seven.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/question_seven.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/question_six.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/question_six.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/question_ten.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/question_ten.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/question_three.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/question_three.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/question_twelve.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/question_twelve.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/question_two.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/question_two.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/welcome.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/welcome.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_app.mp4" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -97,39 +44,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/mg/studio/android/survey/showFinalAnswer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="18" column="43" lean-forward="true" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_show_final_answer.xml">
-          <provider editor-type-id="android-designer2" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="950">
-              <caret line="50" column="13" lean-forward="true" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/mg/studio/android/survey/question7.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/mg/studio/android/survey/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="30" column="10" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/mg/studio/android/survey/finaltext.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
-              <caret line="41" column="16" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
+            <state relative-caret-position="1482">
+              <caret line="88" column="52" lean-forward="true" selection-start-line="88" selection-start-column="8" selection-end-line="88" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -345,6 +264,14 @@
       <option name="presentableId" value="Default" />
       <updated>1581480336728</updated>
     </task>
+    <task id="LOCAL-00001" summary="acticity for 004">
+      <created>1582802568887</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582802568887</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -401,6 +328,10 @@
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info anchor="right" id="Preview" order="5" weight="0.23053665" />
     </layout-to-restore>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="acticity for 004" />
+    <option name="LAST_COMMIT_MESSAGE" value="acticity for 004" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
@@ -696,13 +627,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/mg/studio/android/survey/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="88" column="52" lean-forward="true" selection-start-line="88" selection-start-column="8" selection-end-line="88" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/mg/studio/android/survey/question6.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
@@ -752,10 +676,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/mg/studio/android/survey/showFinalAnswer.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/mg/studio/android/survey/question7.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="18" column="43" lean-forward="true" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+        <state relative-caret-position="475">
+          <caret line="30" column="10" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -767,10 +691,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/mg/studio/android/survey/question7.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/mg/studio/android/survey/showFinalAnswer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="30" column="10" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
+        <state relative-caret-position="247">
+          <caret line="18" column="43" lean-forward="true" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/mg/studio/android/survey/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1482">
+          <caret line="88" column="52" lean-forward="true" selection-start-line="88" selection-start-column="8" selection-end-line="88" selection-end-column="52" />
         </state>
       </provider>
     </entry>
