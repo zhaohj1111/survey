@@ -83,6 +83,14 @@
         android:layout_width="match_parent"
         android:textSize="20sp"
         />
+ <Button
+     android:id="@+id/storeToFile"
+     android:layout_width="match_parent"
+     android:layout_height="100dp"
+     android:text="SAVE"
+     android:background="@color/colorPrimary"
+     android:textSize="60sp"
+     />
 
 
 </LinearLayout>
