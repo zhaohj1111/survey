@@ -72,7 +72,6 @@ public class showFinalAnswer extends AppCompatActivity {
         Question6.setText("Q6:" + q6);
 
         Button store = findViewById(R.id.storeToFile);
-        checkPermission();
 
         store.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -98,10 +97,10 @@ public class showFinalAnswer extends AppCompatActivity {
                         jsonObject.put("Q6", text6);
 
                         String json = jsonObject.toString();
-                        save2Internal("file.json", json);
-                        save2External("file.json", json);
+                        save2Internal("newfile.json", json);
+                        save2External("newfile.json", json);
 
-                        saveToFile(json);
+                        //saveToFile(json);
                     } catch (JSONException e) {
                         e.printStackTrace();
                     }
@@ -139,9 +138,9 @@ public class showFinalAnswer extends AppCompatActivity {
         }
     }
 
-
+/*
     private void checkPermission() {
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {//6.0以上
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
 
             int permission = ActivityCompat.checkSelfPermission(getApplication(), Manifest.permission.RECEIVE_SMS);
             int permission1 = ActivityCompat.checkSelfPermission(getApplication(), Manifest.permission.WRITE_EXTERNAL_STORAGE);
@@ -178,10 +177,10 @@ public class showFinalAnswer extends AppCompatActivity {
                 Toast.makeText(showFinalAnswer.this, "you don`t get the permission，please go to 'setting' to open you store permission", Toast.LENGTH_SHORT).show();
             }
         }
-    }
+    }*/
 
 
-    //
+    /*
     public void saveToFile(String content) {
         BufferedWriter out = null;
 
@@ -214,7 +213,7 @@ public class showFinalAnswer extends AppCompatActivity {
                 }
             }
         }
-    }
+    }*/
 
 
 }
