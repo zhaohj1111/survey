@@ -100,7 +100,7 @@ public class showFinalAnswer extends AppCompatActivity {
                         save2Internal("newfile.json", json);
                         save2External("newfile.json", json);
 
-
+                        //saveToFile(json);
                     } catch (JSONException e) {
                         e.printStackTrace();
                     }
@@ -138,6 +138,82 @@ public class showFinalAnswer extends AppCompatActivity {
         }
     }
 
+/*
+    private void checkPermission() {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+
+            int permission = ActivityCompat.checkSelfPermission(getApplication(), Manifest.permission.RECEIVE_SMS);
+            int permission1 = ActivityCompat.checkSelfPermission(getApplication(), Manifest.permission.WRITE_EXTERNAL_STORAGE);
+            if (permission != PackageManager.PERMISSION_GRANTED && permission1 != PackageManager.PERMISSION_GRANTED) {
+                Toast.makeText(showFinalAnswer.this, "get premission.", Toast.LENGTH_SHORT).show();
+                if (ActivityCompat.shouldShowRequestPermissionRationale(this,
+                        Manifest.permission.RECEIVE_SMS) && ActivityCompat.shouldShowRequestPermissionRationale(this,
+                        Manifest.permission.WRITE_EXTERNAL_STORAGE)) {
+
+                    Toast.makeText(showFinalAnswer.this, "attention：", Toast.LENGTH_SHORT).show();
+                    ActivityCompat.requestPermissions(this,
+                            new String[]{Manifest.permission.RECEIVE_SMS, Manifest.permission.WRITE_EXTERNAL_STORAGE}, 1);
+                } else {
+                    Toast.makeText(showFinalAnswer.this, "no permission", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(showFinalAnswer.this, "no premission，please go to 'setting' to open you store permission", Toast.LENGTH_SHORT).show();
+
+                }
+            } else {
+                Toast.makeText(showFinalAnswer.this, "you get the permission", Toast.LENGTH_SHORT).show();
+            }
+        } else {
+            Toast.makeText(showFinalAnswer.this, "you get the permission", Toast.LENGTH_SHORT).show();
+        }
+    }
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+        if (requestCode == 1) {
+            if (grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                Toast.makeText(showFinalAnswer.this, "you get the permission", Toast.LENGTH_SHORT).show();
+            } else {
+                Toast.makeText(showFinalAnswer.this, "you don`t get the permission", Toast.LENGTH_SHORT).show();
+                Toast.makeText(showFinalAnswer.this, "you don`t get the permission，please go to 'setting' to open you store permission", Toast.LENGTH_SHORT).show();
+            }
+        }
+    }*/
+
+
+    /*
+    public void saveToFile(String content) {
+        BufferedWriter out = null;
+
+        String state = Environment.getExternalStorageState();
+        if (!state.equals(Environment.MEDIA_MOUNTED)) {
+            Toast.makeText(this, "check sdcard", Toast.LENGTH_SHORT).show();
+            return;
+        }
+        File file = Environment.getExternalStorageDirectory();
+        try {
+            Toast.makeText(this, "======SDcard address：" + file.getCanonicalPath(), Toast.LENGTH_SHORT).show();
+            if (file.exists()) {
+                Toast.makeText(this, "file.getCanonicalPath() == " + file.getCanonicalPath(), Toast.LENGTH_SHORT).show();
+            }
+
+
+            out = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(file.getCanonicalPath() + "/test.json", true)));
+            out.newLine();
+            out.write(content);
+            Toast.makeText(this, "store successfully", Toast.LENGTH_SHORT).show();
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            if (out != null) {
+                try {
+                    out.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+    }*/
 
 
 }
