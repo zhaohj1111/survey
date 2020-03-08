@@ -40,6 +40,12 @@ public class questionReadFile extends AppCompatActivity {
 
         String a1=getJson("example.json",this);
         // Toast.makeText(this,a1,Toast.LENGTH_SHORT).show();
+
+
+
+        /*
+        *get the local json file then set it in new TextView.
+         */
         try {
             JSONObject as=new JSONObject(a1);
             String example1=as.getString("Q1");
@@ -62,10 +68,20 @@ public class questionReadFile extends AppCompatActivity {
         }
     }
 
+
+    /*
+    *button click
+     */
     public void Read(View view) {
 
         readFile("result.json");
     }
+
+
+
+    /*
+    *dymaticly uodate the new TextView in the AVD file`s Json File.
+     */
     private void readFile(String fileName){
         try {
             File sdPath=Environment.getExternalStorageDirectory();
@@ -109,6 +125,13 @@ public class questionReadFile extends AppCompatActivity {
             e.printStackTrace();
         }
     }
+
+
+
+    /*
+    *get the local json file
+    *
+     */
     public static String getJson(String fileName,Context context) {
 
         StringBuilder stringBuilder = new StringBuilder();

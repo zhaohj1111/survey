@@ -100,7 +100,9 @@ public class showFinalAnswer extends AppCompatActivity {
                         String json = jsonObject.toString();
 
 
-
+                        /*
+                        * when done the save2External class, opening the new acticity to show the 006
+                         */
 
                         save2Internal("result.json", json);
                         save2External("result.json", json);
@@ -135,6 +137,11 @@ public class showFinalAnswer extends AppCompatActivity {
             try (FileOutputStream fos = new FileOutputStream(file, true)) {
                 fos.write(fileContents.getBytes(StandardCharsets.UTF_8));
                 Toast.makeText(this, "Success: save to external done.", Toast.LENGTH_SHORT).show();
+
+
+                /*
+                *open anohter activity
+                 */
                 Intent intentRead=new Intent(this,questionReadFile.class);
                 startActivity(intentRead);
             } catch (Exception e) {
