@@ -25,6 +25,7 @@ import org.json.JSONObject;
 
 import java.io.BufferedWriter;
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.FileWriter;
@@ -97,8 +98,14 @@ public class showFinalAnswer extends AppCompatActivity {
                         jsonObject.put("Q6", text6);
 
                         String json = jsonObject.toString();
-                        save2Internal("newfile.json", json);
-                        save2External("newfile.json", json);
+
+
+
+
+                        save2Internal("result.json", json);
+                        save2External("result.json", json);
+
+
 
 
                     } catch (JSONException e) {
@@ -110,11 +117,10 @@ public class showFinalAnswer extends AppCompatActivity {
             }
         });
 
-
     }
 
     private void save2Internal(String fileName, String fileContents) {
-        try (FileOutputStream fos = getApplicationContext().openFileOutput(fileName, Context.MODE_APPEND)) {
+        try (FileOutputStream fos = this.openFileOutput(fileName, Context.MODE_APPEND)) {
             fos.write(fileContents.getBytes(StandardCharsets.UTF_8));
             Toast.makeText(this, "Success: save to internal done.", Toast.LENGTH_SHORT).show();
         } catch (Exception e) {
@@ -125,10 +131,12 @@ public class showFinalAnswer extends AppCompatActivity {
 
     private void save2External(String fileName, String fileContents) {
         if (Environment.getExternalStorageState().equals(Environment.MEDIA_MOUNTED)) {
-            File file = new File(this.getExternalCacheDir(), fileName);
+            File file = new File(this.getExternalFilesDir(""), fileName);
             try (FileOutputStream fos = new FileOutputStream(file, true)) {
                 fos.write(fileContents.getBytes(StandardCharsets.UTF_8));
                 Toast.makeText(this, "Success: save to external done.", Toast.LENGTH_SHORT).show();
+                Intent intentRead=new Intent(this,questionReadFile.class);
+                startActivity(intentRead);
             } catch (Exception e) {
                 e.printStackTrace();
                 Toast.makeText(this, "Error: cannot save to external.", Toast.LENGTH_SHORT).show();
@@ -137,6 +145,7 @@ public class showFinalAnswer extends AppCompatActivity {
             Toast.makeText(this, "Error: no external storage!", Toast.LENGTH_SHORT).show();
         }
     }
+
 
 
 
